@@ -7,7 +7,6 @@ html,body {
   -webkit-text-size-adjust: none;
 }
 
-
 .logo {
   display:inline-block;
   align-content: center;
@@ -18,13 +17,12 @@ html,body {
   color: white;
   text-shadow: black 2px 2px;
   font-family: 'Kurale', serif;
-
 }
 
 .aboutme {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  margin: 1%;
+  margin-left: 12px;
   word-spacing: 2px;
   color: white;
   font-style: oblique;
@@ -56,6 +54,10 @@ html,body {
   
 }
 
+.profile {
+  color: white;
+}
+
 .mobile-menu-exit {
   cursor: pointer;
   /*float bte5od el soora w bt7ata left right up down hasab lcontainer taba3ak wen w kif*/
@@ -69,10 +71,10 @@ html,body {
   cursor: pointer;
   /*float bte5od el soora w bt7ata left right up down hasab lcontainer taba3ak wen w kif*/
   float: right;
-  margin: 0em;
   margin-top: 7px;
   margin-right: 5px;
   width: 37px; 
+  position: absolute;
 }
 
 nav a {
@@ -128,7 +130,7 @@ nav li a:hover {
 
 @keyframes example {
   from {color: white;}
-  to {color: #e7aa26;}
+  to {text-shadow: 2px 2px 2px #4504f5} 
 }
 
 .rami-imge {
@@ -145,7 +147,7 @@ nav li a:hover {
   }
 
   .compet-listimg {
-    width: 33%;
+    width: 30%;
     height: 100%;
     display: block;
   }
