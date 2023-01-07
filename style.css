@@ -21,14 +21,23 @@ html,body {
 
 }
 
-
+.aboutme {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin: 1%;
+  word-spacing: 2px;
+  color: white;
+  font-style: oblique;
+  font-weight: lighter;
+  text-shadow: 0px 1px 2px #ffae00;
+}
 
 .compet-listimg {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: auto;
-
+  height: 100%;
+  
 }
 
 .intro {
@@ -44,10 +53,6 @@ html,body {
   animation-timing-function: ease;
   font-family: 'Cairo', sans-serif;
   
-}
-
-.container {
-  color:white;
 }
 
 .mobile-menu-exit {
@@ -122,7 +127,7 @@ nav li a:hover {
 
 @keyframes example {
   from {color: white;}
-  to {color: #e7a923;}
+  to {color: #e7aa26;}
 }
 
 .rami-imge {
@@ -139,7 +144,7 @@ nav li a:hover {
   }
 
   .compet-listimg {
-    width: 50%;
+    width: 33%;
     height: 100%;
     display: block;
   }
@@ -162,8 +167,18 @@ nav li a:hover {
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
-    font-family: 'Cairo', sans-serif;
-    
+    font-family: 'Cairo', sans-serif; 
+  }
+
+  .aboutme {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin: 1%;
+    word-spacing: 2px;
+    color: rgb(253, 253, 253);
+    font-style: oblique;
+    font-weight: lighter;
+    text-shadow: 0px 1px 2px #ffae00;
   }
 
 }
