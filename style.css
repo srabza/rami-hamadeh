@@ -28,12 +28,13 @@ html,body {
   margin-left: auto;
   margin-right: auto;
   height: auto;
+
 }
 
 .intro {
   margin-top: .5em;
   text-transform: uppercase;
-  font-size: 1.8em;
+  font-size: 1.3em;
   letter-spacing: 0em ;
   word-spacing: 0em;
   text-align: center;
@@ -148,6 +149,21 @@ nav li a:hover {
     font-size: 80px;
     align-content: center;
     justify-content: center;
+  }
+
+  .intro {
+    margin-top: .5em;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 0em ;
+    word-spacing: 0em;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    font-family: 'Cairo', sans-serif;
+    
   }
 
 }
