@@ -14,7 +14,7 @@ html,body {
   text-align: center;
   text-decoration:none;
   font-size: 34px;
-  color: white;
+  color: beige;
   text-shadow: black 2px 2px;
   font-family: 'Kurale', serif;
 }
@@ -77,12 +77,30 @@ html,body {
   position: absolute;
 }
 
+.proandach {
+  color: white;
+  font-size: 43px;
+}
+
+.listpros {
+  color: beige;
+  font-size: larger;
+  line-height: 1.4em;
+  padding-left:25px;
+  border-style: dotted;
+}
+
+.backbutton {
+  font-size: 33px;
+  color: white;
+}
+
 nav a {
-  color: rgb(19, 230, 230);
+  color: beige;
 }
 
 nav a:visited {
-  color: rgb(19, 230, 230);
+  color: beige;
 }
 
 nav a:hover {
@@ -91,10 +109,10 @@ nav a:hover {
 }
 
 nav a:active { 
-  color: aquamarine;
+  color: blanchedalmond;
 }
 
-ul {
+.primary-nav {
   list-style-type: none;
   margin: 0 ;
   padding: 0;
