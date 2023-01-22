@@ -26,7 +26,7 @@ html,body {
   word-spacing: 2px;
   color: white;
   font-style: oblique;
-  font-weight: lighter;
+  font-weight: bold;
   text-shadow: 0px 1px 2px #4504f5;
   line-height: 150%;
 }
@@ -51,10 +51,11 @@ html,body {
   animation-iteration-count: infinite;
   animation-timing-function: ease;
   font-family: 'Cairo', sans-serif;
+  font-weight: light;
   
 }
 
-.profile {
+.profiles {
   color: white;
 }
 
@@ -82,13 +83,23 @@ html,body {
   font-size: 43px;
 }
 
-.listpros {
-  color: beige;
-  font-size: larger;
-  line-height: 1.4em;
-  padding-left:25px;
-  border-style: dotted;
+.listpros li {
+  margin-bottom: 20px;
 }
+
+.listpros {
+  color: white;
+  font-size: larger;
+  line-height: 150%;
+  padding-right: 5px;
+  padding-top: 10px;
+  border-style: dotted;
+  font-weight: bold;
+  text-shadow: 0px 1px 2px #4504f5;
+  font-family: 'Cairo', sans-serif;
+  background-color:rgba(0,0,0,0.5);
+}
+
 
 .backbutton {
   font-size: 33px;
@@ -97,6 +108,7 @@ html,body {
 
 nav a {
   color: beige;
+  font-size: large;
 }
 
 nav a:visited {
@@ -127,7 +139,7 @@ nav {
   display: none;
   position: fixed;
   z-index: 999;
-  width: 40%;
+  width: 30%;
   right: 0;
   top: 0;
   background:#20272E;
@@ -135,11 +147,19 @@ nav {
   padding: 1em;
 }
 
+nav li {
+  margin: 0 -0.98em ;
+}
+
 nav li a {
   text-decoration: none;
-  display:block;
-  padding: .5em;
-  text-align: left;
+  display:flex;
+  margin-top: 3em;
+  justify-content: center;
+  border-style:ridge;
+  text-overflow:inherit;
+  border-color:#C0C0C0 ;
+  background-color: rgb(95, 94, 92);
 }
 
 nav li a:hover {
@@ -148,7 +168,7 @@ nav li a:hover {
 
 @keyframes example {
   from {color: white;}
-  to {text-shadow: 2px 2px 2px #4504f5} 
+  to {text-shadow: 1px 1px 2px #12cef0} 
 }
 
 .rami-imge {
@@ -160,8 +180,13 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  .mobile-menu, .mobile-menu-exit {
-    display: none;
+  .mobile-menu {
+    position: static;
+    width: 4%;
+    float: right;
+    margin-top: -95px;
+    padding-right: 5em;
+    position: static
   }
 
   .compet-listimg {
@@ -195,10 +220,11 @@ nav li a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     margin: 1%;
-    word-spacing: 2px;
+    word-spacing: 1px;
+    letter-spacing: auto;
     color: rgb(253, 253, 253);
     font-style: oblique;
-    font-weight: lighter;
+    font-weight: bold;
     text-shadow: 0px 1px 2px #4504f5;
     line-height: 150%;
   }
