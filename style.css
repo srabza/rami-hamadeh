@@ -7,15 +7,15 @@ html,body {
   -webkit-text-size-adjust: none;
 }
 
+.container {
+  text-align: center;
+}
 .logo {
   display:inline-block;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
   text-decoration:none;
   font-size: 34px;
   color: beige;
-  text-shadow: black 2px 2px;
+  text-shadow: black 3px 3px;
   font-family: 'Kurale', serif;
 }
 
@@ -29,6 +29,15 @@ html,body {
   font-weight: bold;
   text-shadow: 0px 1px 2px #4504f5;
   line-height: 150%;
+  background-color:rgba(0,0,0,0.5);
+  border-radius: 15px;
+  border-style:solid;
+  border-color: white;
+  border-width: 3px;
+  text-align: justify-all;
+  padding: 3px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .compet-listimg {
@@ -52,7 +61,6 @@ html,body {
   animation-timing-function: ease;
   font-family: 'Cairo', sans-serif;
   font-weight: light;
-  
 }
 
 .profiles {
@@ -62,25 +70,28 @@ html,body {
 .mobile-menu-exit {
   cursor: pointer;
   /*float bte5od el soora w bt7ata left right up down hasab lcontainer taba3ak wen w kif*/
-  float: right;
-  margin: .2em;
-  
+  max-width: 15%;
+  align-items: center;
 }
 
 .mobile-menu {
- 
+  position: absolute;
   cursor: pointer;
   /*float bte5od el soora w bt7ata left right up down hasab lcontainer taba3ak wen w kif*/
   float: right;
   margin-top: 7px;
-  margin-right: 5px;
+  right: 0;
   width: 37px; 
-  position: absolute;
 }
 
 .proandach {
-  color: white;
-  font-size: 43px;
+  color: rgb(251, 255, 244);
+  text-shadow: 4px 4px 2px rgb(21, 59, 92);
+  font-size: 33px;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  line-height: .9em;
+  font-weight: 212em;
 }
 
 .listpros li {
@@ -100,12 +111,6 @@ html,body {
   background-color:rgba(0,0,0,0.5);
 }
 
-
-.backbutton {
-  font-size: 33px;
-  color: white;
-}
-
 nav a {
   color: beige;
   font-size: large;
@@ -117,7 +122,7 @@ nav a:visited {
 
 nav a:hover {
 
-  color: lightcyan;
+  color: rgb(252, 236, 220);
 }
 
 nav a:active { 
@@ -145,30 +150,30 @@ nav {
   background:#20272E;
   height: 100vh;
   padding: 1em;
+  border-top-left-radius: 14px;
 }
 
 nav li {
-  margin: 0 -0.98em ;
+  margin: 0 -0.99em ;
 }
 
 nav li a {
   text-decoration: none;
   display:flex;
-  margin-top: 3em;
+  margin-top: 1em;
   justify-content: center;
-  border-style:ridge;
+  border-style:double;
   text-overflow:inherit;
-  border-color:#C0C0C0 ;
-  background-color: rgb(95, 94, 92);
+  border-color:#BDD5EF ;
+  border-width: 2px;
+  border-radius: 4px;
 }
 
-nav li a:hover {
-  font-weight: bold;
-}
+
 
 @keyframes example {
   from {color: white;}
-  to {text-shadow: 1px 1px 2px #12cef0} 
+  to {text-shadow: 2px 2px 1px #749eb2} 
 }
 
 .rami-imge {
@@ -182,7 +187,7 @@ nav li a:hover {
 @media only screen and (min-width: 768px) {
   .mobile-menu {
     position: static;
-    width: 4%;
+    width: 3.3%;
     float: right;
     margin-top: -95px;
     padding-right: 5em;
@@ -205,7 +210,7 @@ nav li a:hover {
   .intro {
     margin-top: .5em;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2.5em;
     letter-spacing: 0em ;
     word-spacing: 0em;
     text-align: center;
@@ -218,7 +223,7 @@ nav li a:hover {
 
   .aboutme {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 1%;
     word-spacing: 1px;
     letter-spacing: auto;
@@ -227,6 +232,13 @@ nav li a:hover {
     font-weight: bold;
     text-shadow: 0px 1px 2px #4504f5;
     line-height: 150%;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+    width: 15%;
   }
 
 }
